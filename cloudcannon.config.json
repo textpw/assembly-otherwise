@@ -1,0 +1,30 @@
+{
+  "collections_config": {
+    "posts": {
+      "path": "_posts",
+      "output": true
+    }
+  },
+  "source": ".",
+  "plugins": [],
+  "editable": true,
+  "fields": [
+    {
+      "path": "index.md",
+      "label": "Homepage",
+      "fields": [
+        { "type": "text", "name": "title", "label": "Page Title" },
+        { "type": "markdown", "name": "body", "label": "Main Content" }
+      ]
+    },
+    {
+      "path": "annotations.md",
+      "label": "Annotations Page",
+      "fields": [
+        { "type": "text", "name": "title", "label": "Page Title" },
+        { "type": "markdown", "name": "body", "label": "Annotated Content" }
+      ]
+    }
+  ],
+  "data_config": {}
+}
