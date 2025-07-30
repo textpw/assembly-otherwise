@@ -1,0 +1,51 @@
+
+body {
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 2em;
+    background: #f9f9f9;
+}
+.marginnote {
+    float: right;
+    width: 25%;
+    margin-left: 1em;
+    font-size: 0.85em;
+    color: #555;
+    background: #f4f4f4;
+    padding: 0.5em;
+    border-left: 2px solid #ccc;
+}
+.annotation {
+    position: relative;
+    cursor: pointer;
+    border-bottom: 1px dotted #aaa;
+}
+.annotation .note {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #fff4dc;
+    color: #333;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    width: 250px;
+    z-index: 5;
+}
+.annotation:hover .note {
+    display: block;
+}
+.layered-section {
+    display: flex;
+    gap: 2em;
+    margin-top: 2em;
+}
+.layered-section .primary {
+    flex: 2;
+}
+.layered-section .annotation {
+    flex: 1;
+    font-size: 0.85em;
+    color: #666;
+}
