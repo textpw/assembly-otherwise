@@ -2,21 +2,16 @@
 
 **Workshops and Publishing Through Polycrisis**
 
-This repository contains the modular publication site for *Assembly Otherwise* — an experimental, design-led project exploring publishing, workshops, and collaborative infrastructure as responses to systemic complexity and breakdown.
+This repository contains a modular Jekyll site for *Assembly Otherwise* — a design-led project exploring speculative publishing, infrastructure, and collective knowledge-making in times of systemic uncertainty.
 
-## Project Values
-- Unfinishedness as method
-- Situated, embodied knowledge
-- Collective sense-making
-- Rehearsal over resolution
-- Publishing as infrastructure
+## 📁 Included
+- `index.md`: Homepage
+- `annotations.md`: Example of margin notes and layered commentary
+- `_layouts/`: Basic HTML layout
+- `assets/css/style.css`: Styles for notes, annotations, and layout
+- `Gemfile`: Defines Ruby dependencies for CloudCannon or local Jekyll builds
+- `.ruby-version`: Specifies Ruby version 2.7.3
 
-## Included
-- `index.md`: Project introduction
-- `annotations.md`: Example of margin notes and layered annotation
-- `_layouts/`: Basic HTML template for the site
-- `assets/css/style.css`: Styles for margin notes, annotations, and layout
-
-## License
+## 🌐 License
 © Paul Wilson and collaborators, 2025.  
 Licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).

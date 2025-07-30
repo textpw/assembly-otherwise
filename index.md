@@ -1,6 +1,5 @@
 # Welcome to Assembly Otherwise
 
-A modular publication exploring workshops, publishing, and the polycrisis.
+Explore the layered logic of publishing and workshops.
 
-**Explore:**
-- [Annotations Example](annotations.md)
+[Annotations Example](annotations.md)
