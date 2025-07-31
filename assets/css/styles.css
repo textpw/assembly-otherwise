@@ -5,7 +5,7 @@
 body {
   font-family: 'Work Sans', sans-serif;
   font-size: 1rem;       /* ~16px */
-  font-weight: 400;      /* Regular */
+  font-weight: 500;      /* Regular */
   line-height: 1.6;
   background: #fdfdfd;
   margin: 0;
@@ -60,7 +60,7 @@ p, li {
 .main-nav a {
   text-decoration: none;
   color: #000;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1rem;
 }
 
@@ -87,11 +87,11 @@ p, li {
 h2 {
   margin-top: 0;
   font-size: 1.25rem;
-  font-weight: 200;
+  font-weight: 500;
 }
 
 p, li {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1rem;
 }
 
@@ -136,7 +136,7 @@ p, li {
   background: #f0f0f0;
   border: 1px dotted #888;
   font-size: 0.9rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .hidden {
