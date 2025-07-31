@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Optional: a slightly stronger heading weight if needed */
 h2 {
-  font-weight: 600;      /* Semi-bold */
+  font-weight: 500;      /* Semi-bold */
   letter-spacing: 0.02em;
 }
 
@@ -35,7 +35,7 @@ p, li {
 
 /* Buttons / links: use medium for clarity */
 .button, button, a {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 0.95rem;
 }
 
