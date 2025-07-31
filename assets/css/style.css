@@ -1,51 +1,72 @@
-
 body {
-    font-family: sans-serif;
-    max-width: 800px;
-    margin: auto;
-    padding: 2em;
-    background: #f9f9f9;
+  font-family: sans-serif;
+  background: #fdfdfd;
+  margin: 0;
+  padding: 0;
+  color: #111;
 }
-.marginnote {
-    float: right;
-    width: 25%;
-    margin-left: 1em;
-    font-size: 0.85em;
-    color: #555;
-    background: #f4f4f4;
-    padding: 0.5em;
-    border-left: 2px solid #ccc;
+
+.site-header {
+  background: #fff;
+  padding: 10px 20px;
+  border-bottom: 2px solid #000;
 }
-.annotation {
-    position: relative;
-    cursor: pointer;
-    border-bottom: 1px dotted #aaa;
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
 }
-.annotation .note {
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background: #fff4dc;
-    color: #333;
-    padding: 0.5em;
-    border: 1px solid #ccc;
-    width: 250px;
-    z-index: 5;
+
+.main-nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
 }
-.annotation:hover .note {
-    display: block;
+
+.layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
 }
-.layered-section {
-    display: flex;
-    gap: 2em;
-    margin-top: 2em;
+
+.block {
+  background: #fff;
+  border: 2px solid #000;
+  padding: 15px;
 }
-.layered-section .primary {
-    flex: 2;
+
+.image-set {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
 }
-.layered-section .annotation {
-    flex: 1;
-    font-size: 0.85em;
-    color: #666;
+
+.image-box {
+  background: #eee;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+}
+
+.button, button {
+  display: inline-block;
+  background: none;
+  border: 1px solid #000;
+  padding: 6px 12px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.footnote {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f0f0f0;
+  border: 1px dotted #888;
+}
+
+.hidden {
+  display: none;
 }
