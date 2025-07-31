@@ -13,6 +13,10 @@ title: Home
   </nav>
 </header>
 
+<div class="page-wrapper">
+
+Welcome to the project. This site explores fragments, notes, and reassembly kits for understanding systems under stress...
+
 <main class="layout">
   <section class="module fragments">
     <h2>Fragments</h2>
@@ -34,6 +38,9 @@ title: Home
 
   <!-- Add other sections as needed -->
 </main>
+
+</div>
+
 
 # Welcome to Assembly Otherwise
 
