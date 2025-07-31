@@ -15,7 +15,7 @@ title: Home
 
 <div class="page-wrapper">
 
-Welcome to the project. This site explores fragments, notes, and reassembly kits for understanding systems under stress...
+Welcome to the website for assembly otherwise. This project explores fragments, notes, and reassembly kits for understanding systems under stress.
 
 <main class="layout">
   <section class="module fragments">
@@ -39,11 +39,12 @@ Welcome to the project. This site explores fragments, notes, and reassembly kits
   <!-- Add other sections as needed -->
 </main>
 
-</div>
-
-
-# Welcome to Assembly Otherwise
-
 Explore the layered logic of publishing and workshops.
 
 [Annotations Example](annotations.md)
+
+</div>
+
+
+
+
