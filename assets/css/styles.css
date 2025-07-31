@@ -4,12 +4,39 @@
 /* Global font and base styles */
 body {
   font-family: 'Work Sans', sans-serif;
-  font-weight: 200;
+  font-size: 1rem;       /* ~16px */
+  font-weight: 400;      /* Regular */
+  line-height: 1.6;
   background: #fdfdfd;
   margin: 0;
   padding: 0;
-  color: #111;
+  color: #333;
   line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1rem;       /* same as body */
+  font-weight: 500;      /* Medium weight */
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Optional: a slightly stronger heading weight if needed */
+h2 {
+  font-weight: 600;      /* Semi-bold */
+  letter-spacing: 0.02em;
+}
+
+/* Paragraphs and lists stay at regular weight */
+p, li {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* Buttons / links: use medium for clarity */
+.button, button, a {
+  font-weight: 500;
+  font-size: 0.95rem;
 }
 
 * {
