@@ -1,10 +1,10 @@
 /* Import Work Sans font */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400;500;700&display=swap');
 
 /* Global font and base styles */
 body {
   font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 100;
   background: #fdfdfd;
   margin: 0;
   padding: 0;
@@ -33,7 +33,7 @@ body {
 .main-nav a {
   text-decoration: none;
   color: #000;
-  font-weight: 500;
+  font-weight: 200;
   font-size: 1rem;
 }
 
@@ -55,11 +55,11 @@ body {
 h2 {
   margin-top: 0;
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: 200;
 }
 
 p, li {
-  font-weight: 400;
+  font-weight: 100;
   font-size: 1rem;
 }
 
@@ -86,7 +86,7 @@ p, li {
   padding: 6px 12px;
   font-family: 'Work Sans', sans-serif;
   font-size: 0.95rem;
-  font-weight: 500;
+  font-weight: 200;
   text-decoration: none;
   cursor: pointer;
   margin: 5px 0;
