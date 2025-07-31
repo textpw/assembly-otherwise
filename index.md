@@ -43,7 +43,7 @@ This project explores fragments, notes, and reassembly kits for understanding sy
 
 Explore the layered logic of publishing and workshops.
 
-[Annotations Example](annotations.md)
+[Annotations Example](/annotations.md)
 
 
 
