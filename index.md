@@ -15,7 +15,7 @@ title: Home
 
 <main class="layout">
   <section class="module fragments">
-    <h2>FRAGMENTS</h2>
+    <h2>Fragments</h2>
     <div class="image-set">
       <div class="image-box">VISUAL / IMAGE</div>
       <div class="image-box">SCAN / IMG</div>
@@ -25,7 +25,7 @@ title: Home
   </section>
 
   <section class="module editorial">
-    <h2>EDITORIAL NOTES</h2>
+    <h2>Editorial Notes</h2>
     <p><em>“What did we think we were doing?…”</em></p>
     <a href="/assets/editorial-notes.pdf" class="button">[ DOWNLOAD ]</a>
     <button onclick="playAudio()">▶ AUDIO MARGINS</button>
