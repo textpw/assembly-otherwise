@@ -15,7 +15,8 @@ title: Home
 
 <div class="page-wrapper">
 
-Welcome to the website for assembly otherwise. This project explores fragments, notes, and reassembly kits for understanding systems under stress.
+Welcome to the website for assembly otherwise. 
+This project explores fragments, notes, and reassembly kits for understanding systems under stress.
 
 <main class="layout">
   <section class="module fragments">
