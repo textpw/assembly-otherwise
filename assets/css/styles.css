@@ -43,6 +43,9 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px;
+  
+}
+
 
   /* Base style for all content modules */
 .module {
@@ -51,7 +54,6 @@ body {
   font-family: 'Work Sans', sans-serif;
   border-radius: 6px;
   margin-bottom: 20px;
-}
 }
 
 
