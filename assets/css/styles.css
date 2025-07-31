@@ -1,11 +1,22 @@
+/* Import Work Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+
+/* Global font and base styles */
 body {
-  font-family: sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
   background: #fdfdfd;
   margin: 0;
   padding: 0;
   color: #111;
+  line-height: 1.6;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/* Header Navigation */
 .site-header {
   background: #fff;
   padding: 10px 20px;
@@ -15,15 +26,18 @@ body {
 .main-nav {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 15px;
 }
 
 .main-nav a {
   text-decoration: none;
   color: #000;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
+/* Page Layout */
 .layout {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -31,12 +45,25 @@ body {
   padding: 20px;
 }
 
+/* Section Box */
 .block {
   background: #fff;
   border: 2px solid #000;
   padding: 15px;
 }
 
+h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+p, li {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* Images in Fragments Section */
 .image-set {
   display: flex;
   gap: 10px;
@@ -48,25 +75,59 @@ body {
   padding: 20px;
   flex: 1;
   text-align: center;
+  font-weight: 500;
 }
 
+/* Buttons and Links */
 .button, button {
   display: inline-block;
   background: none;
   border: 1px solid #000;
   padding: 6px 12px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
   text-decoration: none;
   cursor: pointer;
   margin: 5px 0;
+  color: #111;
 }
 
+.button:hover, button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Footnote reveal */
 .footnote {
   margin-top: 10px;
   padding: 10px;
   background: #f0f0f0;
   border: 1px dotted #888;
+  font-size: 0.9rem;
+  font-weight: 400;
 }
 
 .hidden {
   display: none;
+}
+
+/* List styling */
+ul {
+  padding-left: 1.2rem;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .main-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .image-set {
+    flex-direction: column;
+  }
 }
