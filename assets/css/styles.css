@@ -43,14 +43,17 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px;
+
+  /* Base style for all content modules */
+.module {
+  background-color: #e0f7fa; /* light cyan */
+  padding: 15px;
+  font-family: 'Work Sans', sans-serif;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
 }
 
-/* Section Box */
-.block {
-  background: #fff;
-  border: 2px solid #000;
-  padding: 15px;
-}
 
 h2 {
   margin-top: 0;
