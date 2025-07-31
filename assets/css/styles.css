@@ -131,3 +131,12 @@ ul li {
     flex-direction: column;
   }
 }
+
+body::before {
+  content: "Work Sans is loading";
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: green;
+  margin-bottom: 10px;
+}
