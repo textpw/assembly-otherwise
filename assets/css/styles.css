@@ -73,6 +73,9 @@ p, li {
   
 }
 
+.page-wrapper {
+  padding: 24px;
+}
 
   /* Base style for all content modules */
 .module {
