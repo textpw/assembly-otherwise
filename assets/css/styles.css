@@ -5,7 +5,7 @@
 body {
   font-family: 'Work Sans', sans-serif;
   font-size: 1rem;       /* ~16px */
-  font-weight: 500;      /* Regular */
+  font-weight: 400;      /* Regular */
   line-height: 1.6;
   background: #fdfdfd;
   margin: 0;
@@ -47,7 +47,7 @@ p, li {
 .site-header {
   background: #fff;
   padding: 10px 20px;
-  border-bottom: 2px solid #000;
+  border-bottom: 1px solid #3a3a3a;
 }
 
 .main-nav {
@@ -59,7 +59,7 @@ p, li {
 
 .main-nav a {
   text-decoration: none;
-  color: #000;
+  color: #00FF00;
   font-weight: 500;
   font-size: 1rem;
 }
