@@ -35,10 +35,6 @@ title: Home
   <!-- Add other sections as needed -->
 </main>
 
-<p style="font-family: 'Work Sans', sans-serif; font-weight: 700; color: green;">
-  ✅ This should be in Work Sans Bold
-</p>
-
 # Welcome to Assembly Otherwise
 
 Explore the layered logic of publishing and workshops.
