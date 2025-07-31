@@ -7,7 +7,7 @@ title: Home
   <nav class="main-nav">
     <a href="#">FRAGMENTS</a>
     <a href="#">NOTES</a>
-    <a href="#">KITS</a>
+    <a href="#">RECOVERY KITS</a>
     <a href="#">ABOUT</a>
     <a href="#" class="rss">RSS</a>
   </nav>
