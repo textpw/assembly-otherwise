@@ -39,12 +39,13 @@ This project explores fragments, notes, and reassembly kits for understanding sy
 
   <!-- Add other sections as needed -->
 </main>
+</div>
 
 Explore the layered logic of publishing and workshops.
 
 [Annotations Example](annotations.md)
 
-</div>
+
 
 
 
