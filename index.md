@@ -14,7 +14,7 @@ title: Home
 </header>
 
 <main class="layout">
-  <section class="block fragments">
+  <section class="module fragments">
     <h2>FRAGMENTS</h2>
     <div class="image-set">
       <div class="image-box">VISUAL / IMAGE</div>
@@ -24,7 +24,7 @@ title: Home
     <div id="footnote" class="footnote hidden">Footnote text goes here...</div>
   </section>
 
-  <section class="block editorial">
+  <section class="module editorial">
     <h2>EDITORIAL NOTES</h2>
     <p><em>“What did we think we were doing?…”</em></p>
     <a href="/assets/editorial-notes.pdf" class="button">[ DOWNLOAD ]</a>
